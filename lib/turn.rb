@@ -41,6 +41,8 @@ def turn(board)
  index = input_to_index(input)
  if valid_move?(board, index)
    move(board, index)
+   display_board(board)
+ else
 end
 #else ask for input again until you get a valid input
 #end
