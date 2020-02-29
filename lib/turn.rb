@@ -37,7 +37,7 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
- 
+ if 
 end
 
 #else ask for input again until you get a valid input
