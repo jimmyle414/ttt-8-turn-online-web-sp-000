@@ -23,7 +23,7 @@ end
   #make the move for index
   #show the board
   
-  def move(board, index, current_player)
+  def move(board, index, current_player = "X")
   board[index] = current_player
 end
 
