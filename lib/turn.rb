@@ -37,9 +37,7 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
- if input_to_index(user_input)
-  user_input.to_i - 1
-end
+
 end
 #else ask for input again until you get a valid input
 #end
